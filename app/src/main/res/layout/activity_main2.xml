@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#062745"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="66dp"
+                android:text="For direct Google Search use keyword'Search'
+                         Example:Search India.This will give you direct google search.
+
+
+
+
+
+
+
+
+
+                                                                   To open an Application on Buddy speak keyword 'Open' followed by the name of the Application.
+                                                                   Example:To open Whatsaap.
+                                                                   Speak:Open 'Whatsaap'.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                    Buddy open's following Applications for you.
+
+                                                                   'Whatsaap'
+                                                                   'zomato'
+                                                                   'food panda'
+                                                                   'Facebook'
+                                                                   'Instagram'
+                                                                   'Youtube'
+                                                                   'Phone'
+                                                                   'Pubji'
+                                                                   'Chrome'
+                                                                   'Google'
+                                                                   'Amazon'
+                                                                   'Gallery'
+                                                                   'Flipkart'
+                                                                              'Maps'
+                                                                   'Message'
+                                                                   'Hotstar'
+                                                                   'Gmail'
+                                                                               'OlaCabs'
+                                                                   'Shareit'
+                                                                   'Paytm'
+                                                                   'Netflix'
+                                                                   'Uber Cabs'
+                                                                   'IRCTCAir'
+                                                                                'Tez'
+                                                                                'Myntra'
+                                                                   'Swiggy'
+                                                                   'Dialer'
+                                                                                'Music'
+                                                                                Bluetooth
+                                                                               WIFI
+
+                                                                              To close Bluetooth and WIFI use keyword 'close'
+
+"
+                android:textColor="#00adef"
+                android:textSize="19dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#5c4479"
+        app:titleTextColor="#00adef">
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
